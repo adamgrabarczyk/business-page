@@ -45,7 +45,32 @@ canvas{
 
 
 
+.footer {
 
+    background: white;
+    padding: 10px 25px;
+    text-align: center;
+}
+.footer-tag {
+    font-family: 'Play', sans-serif;
+    margin-top: 2em;
+    font-size: small;
+}
+.person-link {
+    text-decoration: none;
+    color: black;
+}
+
+.person-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.person-link:focus {
+
+    text-decoration: none;
+    color: black;
+}
 
 
 
