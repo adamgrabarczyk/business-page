@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="utf-8">
     <title>particles.js</title>
@@ -12,6 +12,7 @@
     <meta name="author" content="Vincent Garreau" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" media="screen" href="css/nav-css.css">
 
     <link rel="icon" type="image/png" href="" sizes="16x16"/>
     <script src="js/jquery-3.2.0.min.js"></script>
@@ -19,10 +20,30 @@
 </head>
 <body>
 
+<div class="navbar">
+<h1 id="nav-title">A Priori <span>by adam grabarczyk</span></h1>
+
+<input id="burger" type="checkbox" />
+
+<label for="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+</label>
+
+<nav>
+    <ul>
+        <li><a href="#">Link #1</a></li>
+        <li><a href="#">Link #2</a></li>
+        <li><a href="#">Link #3</a></li>
+    </ul>
+</nav>
+</div>
+
 
 <div>
 
-    <div id="particles-js"> <div><img src="images/face.png" id="img-face" alt=""> <h1>Adam Grabarczyk</h1></div>
+    <div id="particles-js"> <div><img src="images/face.png" id="img-face" alt=""> <h1 id="blah">Adam Grabarczyk</h1></div>
 </div>
 
 </div>
