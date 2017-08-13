@@ -36,6 +36,18 @@ canvas{
     text-transform: uppercase;
 }
 
+#img-logo{
+    max-width: 300px;
+    font-size: 3rem;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: #FFF;
+    font-family: teko;
+    font-weight: 400;
+    text-shadow: 5px 5px #5F6D72;
+    text-transform: uppercase;
+}
 
 
 
