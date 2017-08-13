@@ -16,12 +16,6 @@ canvas{
     vertical-align:bottom;
 }
 
-#img-face {
-    max-width: 100px;
-    position: absolute;
-    top: 30%;
-    left: 25%;
-}
 
 
 #particles-js{
@@ -41,6 +35,31 @@ canvas{
     text-shadow: 5px 5px #5F6D72;
     text-transform: uppercase;
 }
+
+
+
+
+.parallax {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg");
+
+    max-height: 300px;
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 

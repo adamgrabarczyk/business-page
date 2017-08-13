@@ -1,0 +1,23 @@
+.about {
+    width: 100%;
+    height: 350px;
+    background-color: midnightblue;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 25px;
+
+}
+
+.about p {
+    padding-top: 25px;
+    margin-left: 30%;
+    margin-right: 15%;
+}
+
+
+#img-face {
+    max-width: 110px;
+    position: absolute;
+    top: 77%;
+    left: 15%;
+}
