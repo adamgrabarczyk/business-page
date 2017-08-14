@@ -15,6 +15,11 @@ padding-bottom: 20px;
 
 }
 
+
+.is-hidden {
+    display: none;
+}
+
 .sklills h3, p {
     color: black;
 }
@@ -50,10 +55,10 @@ padding-bottom: 20px;
 
 
 
-.content {
-    display: none;
+/*.content {*/
+    /*display: none;*/
 
-}
+/*}*/
 
 
 
