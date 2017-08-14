@@ -1,7 +1,9 @@
 .about {
     width: 100%;
     height: 350px;
-    background-color: midnightblue;
+    background: #007991; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #007991, #78ffd6); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #007991, #78ffd6);
     text-align: center;
     color: #FFFFFF;
     padding-top: 25px;
