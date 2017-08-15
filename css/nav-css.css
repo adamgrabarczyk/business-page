@@ -1,3 +1,10 @@
+.red{
+    display: none;
+}
+
+
+
+
 #nav-title {
     position: fixed;
     top: 40px;
@@ -99,9 +106,7 @@
 
 
 
-.red{
-    display: none;
-}
+
 
 #burger {
     display: none;
