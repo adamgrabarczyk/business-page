@@ -43,7 +43,7 @@ background-image: url("http://theskymap.com/img/cosmos.jpg");
     max-width: 300px;
     font-size: 3rem;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 40%;
     border-radius: 5%;
     color: #FFF;
@@ -117,8 +117,11 @@ background-image: url("http://theskymap.com/img/cosmos.jpg");
 @media screen and (max-width: 678px){
 
     #img-logo{
-        left: 22%;
+        top: 40%;
+        left: 33%;
+        max-width: 200px;
     }
+
 
 }
 
