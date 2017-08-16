@@ -23,3 +23,28 @@
     top: 77%;
     left: 15%;
 }
+
+
+
+
+@media screen and (max-width: 678px){
+
+
+    #img-face {
+        top: 80%;
+        left: 3%;
+
+    }
+
+    .about {
+        height: 450px;
+
+    }
+
+    .about p {
+        margin-left: 15%;
+        margin-right: 7%;
+
+    }
+
+}

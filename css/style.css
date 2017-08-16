@@ -114,4 +114,16 @@ background-image: url("http://theskymap.com/img/cosmos.jpg");
 
 
 
+@media screen and (max-width: 678px){
 
+    #img-logo{
+        left: 22%;
+    }
+
+}
+
+
+#particles-js {
+
+    max-height: 300px;
+}

@@ -50,6 +50,16 @@
 .content-wrapper{}
 
 
+@media screen and (max-width: 678px) {
+
+    .offer, .fusion-fullwidth{
+
+        height: 820px;
+        padding: 10px;
+
+    }
+
+}
 
 
 
