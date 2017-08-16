@@ -27,6 +27,12 @@ canvas{
 background-image: url("http://theskymap.com/img/cosmos.jpg");
 }
 
+.back {
+    background-color: black;
+    width: 100px;
+    height: 300px;
+}
+
 #blah{
     font-size: 3rem;
     position: absolute;
@@ -40,18 +46,22 @@ background-image: url("http://theskymap.com/img/cosmos.jpg");
 }
 
 #img-logo{
-    max-width: 300px;
+    max-width: 100px;
     font-size: 3rem;
     position: absolute;
     top: 20%;
-    left: 40%;
-    border-radius: 5%;
-    color: #FFF;
-    font-family: teko;
-    font-weight: 400;
-    text-shadow: 5px 5px #5F6D72;
-    text-transform: uppercase;
+    left: 50%;
+    animation: App-logo-spin infinite 20s linear;
 }
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+
+
 
 
 
