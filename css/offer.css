@@ -8,3 +8,78 @@
     background: -webkit-linear-gradient(135deg, coral, mediumvioletred);
     background: linear-gradient(-45deg, coral, mediumvioletred);
 }
+
+
+
+
+
+
+
+
+
+.fusion-fullwidth {
+    background-color: #ffffff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+
+.fusion-column-wrapper {
+    background-position: left top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fusion-title {
+    margin-top: 16px;
+    margin-bottom: 31px;
+}
+
+.fusion-content-boxes {
+    margin-top: 0px;
+    margin-bottom: 60px
+}
+
+.content-wrapper{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
