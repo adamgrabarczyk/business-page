@@ -24,14 +24,120 @@ canvas{
     /*background: #1488cc; !* fallback for old browsers *!*/
     /*background: -webkit-linear-gradient(to right, #1488cc, #2b32b2); !* Chrome 10-25, Safari 5.1-6 *!*/
     /*background: linear-gradient(to right, #1488cc, #2b32b2);*/
-background-image: url("http://theskymap.com/img/cosmos.jpg");
+/*background-image: url("http://theskymap.com/img/cosmos.jpg");*/
+/*background-color: #2a2a2a;*/
 }
 
-.back {
-    background-color: black;
-    width: 100px;
-    height: 300px;
+.slider-wrap {
+    width: 100%;
+    height:320px;
+    position: relative;
 }
+
+.single-slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    animation: slider-animation;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    background-size: cover;
+}
+
+#slide-1 { background-image: url(http://www.berliner-kfz-sachverstaendiger.de/wp-content/uploads/2013/11/slide_start-940x185.jpg);}
+#slide-2 { animation-delay: 5s; background-image: url(/images/mac.jpg);}
+#slide-3 { animation-delay: 10s; background-image: url(http://www.amazingwallpaperz.com/wp-content/uploads/Ice-Cream-Wallpapers-For-Laptops.jpg);}
+#slide-4 { animation-delay: 15s; background-image: url(http://wallpapersdsc.net/wp-content/uploads/2015/11/Ice_Cream_Iphone_wallpapers14.jpg);}
+#slide-5 { animation-delay: 20s; background-image: url(https://akademia108.pl/wp-content/uploads/2017/04/programista.png);}
+
+@keyframes slider-animation {
+
+    0% {
+        opacity: 0;
+    }
+    6% {
+        opacity: 1;
+    }
+    24% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #blah{
     font-size: 3rem;

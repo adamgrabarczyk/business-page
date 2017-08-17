@@ -16,6 +16,7 @@
     <link rel="stylesheet" media="screen" href="css/about.css">
     <link rel="stylesheet" media="screen" href="css/skills.css">
     <link rel="stylesheet" media="screen" href="css/offer.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
     <link rel="icon" type="image/png" href="" sizes="16x16"/>
     <script src="js/jquery-3.2.0.min.js"></script>
@@ -24,6 +25,7 @@
     <script src="js/skills-slide.js" async></script>
     <script src="js/show-hide-skills.js" async></script>
     <script src="js/menu-contol.js" async></script>
+    <script src="js/scroll-up-button.js" async></script>
 </head>
 <body>
 
@@ -37,7 +39,7 @@
 
 
 <div class="navbar-min">
-<h1 id="nav-title">A Priori <span>by adam grabarczyk</span></h1>
+<h1 id="nav-title"><span>by adam grabarczyk</span></h1>
 
 <input id="burger" type="checkbox" />
 
@@ -68,13 +70,39 @@
 
 
 
+
+
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--scroll-up-button end -->
+
+
+
 <div>
 
     <div id="particles-js"> <div>
         <!--<h1 id="blah">Adam Grabarczyk</h1>-->
-        <!--<div class="back">-->
-        <!--<img src="images/icon-reactjs.svg" id="img-logo" alt="">-->
-        <!--</div>-->
+        <div class="slider-wrap">
+            <div class="single-slide" id="slide-1"></div>
+            <div class="single-slide" id="slide-2"></div>
+            <div class="single-slide" id="slide-3"></div>
+            <div class="single-slide" id="slide-4"></div>
+            <div class="single-slide" id="slide-5"></div>
+
+        </div>
         </div>
 </div>
 </div>
@@ -88,7 +116,7 @@
 
 
 
-<div class="container-fluid about" id="about">
+<div class="container-fluid about" #particles-js>
     <img src="images/face.png" id="img-face" alt="">
     <h3>kim jestem?</h3>
  <h4>Programista & Web developer</h4><br>
@@ -102,7 +130,7 @@
 
 
 
-<div class="parallax"></div>
+<!--<div class="parallax"></div>-->
 
 
 
@@ -142,7 +170,7 @@
 
 
 
-<div class="parallax"></div>
+<!--<div class="parallax"></div>-->
 
 
 <!--end-parlax-->
