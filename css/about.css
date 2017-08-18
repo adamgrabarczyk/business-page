@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Padauk');
+@import url('https://fonts.googleapis.com/css?family=Dekko');
+
 .about {
     width: 100%;
-    height: 450px;
+    height: 500px;
     background: #007991; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #007991, #78ffd6); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #007991, #78ffd6);
@@ -10,15 +13,36 @@
 
 }
 
+.who{
+padding-top: 20px;
+    font-family: 'Padauk';
+    color: #ec583A;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+
+.fiew-words{
+font-size: 25px;
+    font-weight: 800;
+    color: #ec583A;
+    font-family: 'Dekko';
+}
+
+
 .about p {
     padding-top: 25px;
     margin-left: 30%;
     margin-right: 15%;
+    color: white;
+    font-family: 'Dekko';
+    font-size: 18px;
 }
 
 .about h4 {
     position: absolute;
     top: 135%;
+    font-weight: 800;
+    color: #ec583A;
     left: 10%;
 }
 
@@ -54,6 +78,8 @@
         padding-top: 5px;
 
     }
+
+
 
 
     .about h4 {
