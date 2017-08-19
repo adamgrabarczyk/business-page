@@ -17,8 +17,9 @@
     <link rel="stylesheet" media="screen" href="css/skills.css">
     <link rel="stylesheet" media="screen" href="css/offer.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-
     <link rel="icon" type="image/png" href="" sizes="16x16"/>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
     <script src="js/jquery-3.2.0.min.js"></script>
     <script src="js/particles.js" async></script>
     <script src="js/code.js" async></script>
@@ -170,13 +171,25 @@
 
 
 
-<div id="particles-js"></div>
+<div id="particles-js">
+
+    <div class="name-face">
+        <img src="images/face.png" id="img-face" alt="">
+
+    </div>
+    <canvas class="particles-js-canvas-el" width="552" height="146" style="width: 100%; height: 100%;"></canvas>
+
+</div>
+<div class="container-fluid belefele">
+    <hr class="line">
+    <h3>Programista & Web developer</h3>
+</div>
 
 <div class="container-fluid about">
 
-    <img src="images/face.png" id="img-face" alt="">
+
     <h3 class="who">kim jestem?</h3>
- <h4>Programista & Web developer</h4><br>
+
     <p><br>W kilku słowach:jestem programistą stron internetowych oraz aplikacji mobilnych opratych na technologiach webowych.
         W skrócie:tworzę responsywne strony internetowe czyli dostosowane do urządzeń przenośnych
         (laptop, telefon, tablet), oraz proste aplikacje mobilne na takie platformy jak iOS i Android.Głównie korzystam z technologii HTML5, CSS, JavaScript, PHP, Bootstrap, React oraz React Native.
@@ -186,7 +199,80 @@
 
 <!--end-about-->
 
-
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Technologie z których korzystam najczęściej</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 text-center animation-element slide-left testimonial">
+                <div class="service-box">
+                    <img src="icons/social_html5_1970.png" alt="" class="img">
+                    <h3>HTML5</h3>
+                    <p class="text-muted">Język html stosuje się do tworzenia stron internetowych. Przeglądarki internetowe odczytują składnię html i interpretują ją, wyświetlając stronę w przeglądarce.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center animation-element slide-left testimonial">
+                <div class="service-box">
+                    <img src="icons/02-gww-css.gif" alt="" class="img">
+                    <h3>CSS</h3>
+                    <p class="text-muted">Za pomocą CSS'a określamy wygląd różnych elementów HTML znajdujących się na danej stronie internetowej.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center animation-element slide-left testimonial">
+                <div class="service-box">
+                    <img src="icons/indeks-js.png" alt="" class="img">
+                    <h3>JavaScript</h3>
+                    <p class="text-muted">Skryptowy język programowania, który umożliwia zaawansowaną interakcję z użytkownikiem, oraz strowanie logiką aplkiacji.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center animation-element slide-left testimonial">
+                <div class="service-box">
+                    <img src="icons/bootstrap-thumb-.png" alt="" class="img">
+                    <h3>Bootstrap</h3>
+                    <p class="text-muted">framework CSS, rozwijany przez programistów Twittera,ułatwia tworzenie interfejsu graficznego stron oraz aplikacji internetowych.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 text-center animation-element slide-left testimonial">
+                <div class="service-box">
+                    <img src="icons/logo-reacta.svg" alt="" class="img">
+                    <h3>React JS</h3>
+                    <p class="text-muted">React to biblioteka od developerów takich portali jak Facebook czy Instagram, która służy do tworzenia komponowalnych interfejsów użytkownika.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center animation-element slide-left testimonial">
+                <div class="service-box">
+                    <img src="icons/library-node.svg" alt="" class="img">
+                    <h3>Node JS</h3>
+                    <p class="text-muted">Jest frameworkiem open source. Środowisko uruchomieniowe zaprojektowane do tworzenia wysoce skalowalnych aplikacji internetowych.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center animation-element slide-left testimonial">
+                <div class="service-box">
+                    <img src="icons/icon.php.png" alt="" class="img">
+                    <h3>PHP</h3>
+                    <p class="text-muted">PHP jest najczęściej stosowany do tworzenia skryptów po stronie serwera WWW.PHP zastosować można również do przetwarzania danych.Jest językiem open source. </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center animation-element slide-left testimonial">
+                <div class="service-box">
+                    <img src="icons/jee.gif" alt="" class="img">
+                    <h3>Java JEE</h3>
+                    <p class="text-muted">Aplikacje webowe w języku Java można tworzyć dzięki specyfikacji JEE . Jest to zbiór mechanizmów wykorzystywanych przy budowaniu aplikacji webowych.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -235,285 +321,285 @@
 
 <!--end-parlax-->
 
-<div class="container-fluid sklills" id="skills">
+<!--<div class="container-fluid sklills" id="skills">-->
 
-    <h3>Technologie</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci doloremque eius eos et, id incidunt maiores natus repudiandae sequi! Adipisci amet consectetur excepturi explicabo natus numquam, quis repellat ullamLorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci doloremque eius eos et, id incidunt maiores natus repudiandae sequi! Adipisci amet consectetur excepturi explicabo natus numquam, quis repellat ullamLorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci doloremque eius eos et, id incidunt maiores natus repudiandae sequi! Adipisci amet consectetur excepturi explicabo natus numquam, quis repellat ullam.</p>
+    <!--<h3>Technologie</h3>-->
+    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci doloremque eius eos et, id incidunt maiores natus repudiandae sequi! Adipisci amet consectetur excepturi explicabo natus numquam, quis repellat ullamLorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci doloremque eius eos et, id incidunt maiores natus repudiandae sequi! Adipisci amet consectetur excepturi explicabo natus numquam, quis repellat ullamLorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci doloremque eius eos et, id incidunt maiores natus repudiandae sequi! Adipisci amet consectetur excepturi explicabo natus numquam, quis repellat ullam.</p>-->
 
-    <span class="js-btn btn">Click me</span>
-    <!--<div class='js-fade is-hidden'>You look amazing!</div>-->
-
-
+    <!--<span class="js-btn btn">Click me</span>-->
+    <!--&lt;!&ndash;<div class='js-fade is-hidden'>You look amazing!</div>&ndash;&gt;-->
 
 
-    <div id="content" class="content js-fade is-hidden">
-    <div class="animation-element slide-left testimonial">
-        <div class="header">
-            <div class="left">
-                <img src="images/HTML5_Logo_512.png" class="skill-img2" alt="">            </div>
-            <div class="right">
-                <h3>HTML5</h3>
-                <h4>CEO / Manager - Auto Incorporated</h4>
-            </div>
-        </div>
-        <div class="content"><i class="fa fa-quote-left"></i> When I started using their service I was skeptical. They promised me a 300% return on my initial investment. However they came through on their word and now my business is flourishing.. <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
-        </div>
-    </div>
-    <!--testimonial two -->
-    <div class="animation-element slide-left testimonial">
-        <div class="header">
-            <div class="left">
-                <img src="images/CSS.png" class="skill-img" alt="">
-            </div>
-            <div class="right">
-                <h3>CSS</h3>
-                <h4>Marketing Manager - Omega Creative</h4>
-            </div>
-        </div>
-        <div class="content"><i class="fa fa-quote-left"></i> Our company first enlisted their services when we had a down-turn in sales and revene. They outlined a series of steps we could take to improve our position and within a year we are making signifcant
-            <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-        </div>
-    </div>
-    <!--testimonial three -->
-    <div class="animation-element slide-left testimonial">
-        <div class="header">
-            <div class="left">
-                <img src="images/js.png" class="skill-img" alt="">
 
-            </div>
-            <div class="right">
-                <h3>JavaScript</h3>
-                <h4>CEO - Generic Business</h4>
-            </div>
-        </div>
-        <div class="content"><i class="fa fa-quote-left"></i> We entered into a 12 month period of service with this company in the hopes to improve our returns. After this period we have a return of double our initial investment..
-            <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-        </div>
-    </div>
-    <!--testimonial four -->
-    <div class="animation-element slide-left testimonial">
-        <div class="header">
-            <div class="left">
-                <img src="images/rwd.png" class="skill-img2" alt="">
-            </div>
-            <div class="right">
-                <h3>Responsive Web Design</h3>
-                <h4>MQ, Flex-box</h4>
-            </div>
-        </div>
-        <div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..
-            <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </div>
-    </div>
-    <!--testimonial five -->
-    <div class="animation-element slide-left testimonial">
-        <div class="header">
-            <div class="left">
-                <img src="images/Boostrap_logo.svg" class="skill-img2" alt="">
-            </div>
-            <div class="right">
-                <h3>Bootstrap</h3>
-                <h4>MQ, Flex-box</h4>
-            </div>
-        </div>
-        <div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..
-            <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </div>
-    </div>
-    <!--testimonial six -->
-    <div class="animation-element slide-left testimonial">
-        <div class="header">
-            <div class="left">
-                <img src="images/git.svg" class="skill-img2" alt="">
-            </div>
-            <div class="right">
-                <h3>Git</h3>
-                <h4>MQ, Flex-box</h4>
-            </div>
-        </div>
-        <div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..
-            <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </div>
-    </div>
-    <!--testimonial seven -->
-    <div class="animation-element slide-left testimonial">
-        <div class="header">
-            <div class="left">
-                <img src="images/react.svg" class="skill-img2" alt="">
-            </div>
-            <div class="right">
-                <h3>React JS</h3>
-                <h4>React Native, React Redux</h4>
-            </div>
-        </div>
-        <div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..
-            <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </div>
-    </div>
-    <!--testimonial eight -->
-    <div class="animation-element slide-left testimonial">
-        <div class="header">
-            <div class="left">
-                <img src="images/nodejs-icon.svg" class="skill-img3" alt="">
-            </div>
-            <div class="right">
-                <h3>Node JS</h3>
-                <h4>NPM, YARN</h4>
-            </div>
-        </div>
-        <div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..
-            <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </div>
-    </div>
-    <!--testimonial nine -->
-    <div class="animation-element slide-left testimonial">
-        <div class="header">
-            <div class="left">
-                <img src="images/PHP-logo.svg" class="skill-img4" alt="">
-            </div>
-            <div class="right">
-                <h3>PHP</h3>
-                <h4>NPM, YARN</h4>
-            </div>
-        </div>
-        <div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..
-            <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </div>
-    </div>
-    <!--testimonial ten -->
-    <div class="animation-element slide-left testimonial">
-        <div class="header">
-            <div class="left">
-                <img src="images/MySQL.svg.png" class="skill-img5" alt="">
-            </div>
-            <div class="right">
-                <h3>MySql</h3>
-                <h4>NPM, YARN</h4>
-            </div>
-        </div>
-        <div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..
-            <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </div>
-    </div>
-    <!--testimonial eleven -->
-    <div class="animation-element slide-left testimonial">
-        <div class="header">
-            <div class="left">
-                <img src="images/java.png" class="skill-img6" alt="">
-            </div>
-            <div class="right">
-                <h3>Java</h3>
-                <h4>NPM, YARN</h4>
-            </div>
-        </div>
-        <div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..
-            <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </div>
-    </div>
-    <!--testimonial -->
-    <div class="animation-element slide-left testimonial">
-        <div class="header">
-            <div class="left">
-                <img src="images/ajax.png" class="skill-img7" alt="">
-            </div>
-            <div class="right">
-                <h3>AJAX</h3>
-                <h4>NPM, YARN</h4>
-            </div>
-        </div>
-        <div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..
-            <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-        </div>
-    </div>
 
-    </div>
-</div>
-</div>
-</div>
+    <!--<div id="content" class="content js-fade is-hidden">-->
+    <!--<div class="animation-element slide-left testimonial">-->
+        <!--<div class="header">-->
+            <!--<div class="left">-->
+                <!--<img src="images/HTML5_Logo_512.png" class="skill-img2" alt="">            </div>-->
+            <!--<div class="right">-->
+                <!--<h3>HTML5</h3>-->
+                <!--<h4>CEO / Manager - Auto Incorporated</h4>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="content"><i class="fa fa-quote-left"></i> When I started using their service I was skeptical. They promised me a 300% return on my initial investment. However they came through on their word and now my business is flourishing.. <i class="fa fa-quote-right"></i>-->
+        <!--</div>-->
+        <!--<div class="rating">-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star-half-o"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;testimonial two &ndash;&gt;-->
+    <!--<div class="animation-element slide-left testimonial">-->
+        <!--<div class="header">-->
+            <!--<div class="left">-->
+                <!--<img src="images/CSS.png" class="skill-img" alt="">-->
+            <!--</div>-->
+            <!--<div class="right">-->
+                <!--<h3>CSS</h3>-->
+                <!--<h4>Marketing Manager - Omega Creative</h4>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="content"><i class="fa fa-quote-left"></i> Our company first enlisted their services when we had a down-turn in sales and revene. They outlined a series of steps we could take to improve our position and within a year we are making signifcant-->
+            <!--<i class="fa fa-quote-right"></i>-->
+        <!--</div>-->
+        <!--<div class="rating">-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;testimonial three &ndash;&gt;-->
+    <!--<div class="animation-element slide-left testimonial">-->
+        <!--<div class="header">-->
+            <!--<div class="left">-->
+                <!--<img src="images/js.png" class="skill-img" alt="">-->
+
+            <!--</div>-->
+            <!--<div class="right">-->
+                <!--<h3>JavaScript</h3>-->
+                <!--<h4>CEO - Generic Business</h4>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="content"><i class="fa fa-quote-left"></i> We entered into a 12 month period of service with this company in the hopes to improve our returns. After this period we have a return of double our initial investment..-->
+            <!--<i class="fa fa-quote-right"></i>-->
+        <!--</div>-->
+        <!--<div class="rating">-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;testimonial four &ndash;&gt;-->
+    <!--<div class="animation-element slide-left testimonial">-->
+        <!--<div class="header">-->
+            <!--<div class="left">-->
+                <!--<img src="images/rwd.png" class="skill-img2" alt="">-->
+            <!--</div>-->
+            <!--<div class="right">-->
+                <!--<h3>Responsive Web Design</h3>-->
+                <!--<h4>MQ, Flex-box</h4>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..-->
+            <!--<i class="fa fa-quote-right"></i>-->
+        <!--</div>-->
+        <!--<div class="rating">-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;testimonial five &ndash;&gt;-->
+    <!--<div class="animation-element slide-left testimonial">-->
+        <!--<div class="header">-->
+            <!--<div class="left">-->
+                <!--<img src="images/Boostrap_logo.svg" class="skill-img2" alt="">-->
+            <!--</div>-->
+            <!--<div class="right">-->
+                <!--<h3>Bootstrap</h3>-->
+                <!--<h4>MQ, Flex-box</h4>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..-->
+            <!--<i class="fa fa-quote-right"></i>-->
+        <!--</div>-->
+        <!--<div class="rating">-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;testimonial six &ndash;&gt;-->
+    <!--<div class="animation-element slide-left testimonial">-->
+        <!--<div class="header">-->
+            <!--<div class="left">-->
+                <!--<img src="images/git.svg" class="skill-img2" alt="">-->
+            <!--</div>-->
+            <!--<div class="right">-->
+                <!--<h3>Git</h3>-->
+                <!--<h4>MQ, Flex-box</h4>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..-->
+            <!--<i class="fa fa-quote-right"></i>-->
+        <!--</div>-->
+        <!--<div class="rating">-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;testimonial seven &ndash;&gt;-->
+    <!--<div class="animation-element slide-left testimonial">-->
+        <!--<div class="header">-->
+            <!--<div class="left">-->
+                <!--<img src="images/react.svg" class="skill-img2" alt="">-->
+            <!--</div>-->
+            <!--<div class="right">-->
+                <!--<h3>React JS</h3>-->
+                <!--<h4>React Native, React Redux</h4>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..-->
+            <!--<i class="fa fa-quote-right"></i>-->
+        <!--</div>-->
+        <!--<div class="rating">-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;testimonial eight &ndash;&gt;-->
+    <!--<div class="animation-element slide-left testimonial">-->
+        <!--<div class="header">-->
+            <!--<div class="left">-->
+                <!--<img src="images/nodejs-icon.svg" class="skill-img3" alt="">-->
+            <!--</div>-->
+            <!--<div class="right">-->
+                <!--<h3>Node JS</h3>-->
+                <!--<h4>NPM, YARN</h4>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..-->
+            <!--<i class="fa fa-quote-right"></i>-->
+        <!--</div>-->
+        <!--<div class="rating">-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;testimonial nine &ndash;&gt;-->
+    <!--<div class="animation-element slide-left testimonial">-->
+        <!--<div class="header">-->
+            <!--<div class="left">-->
+                <!--<img src="images/PHP-logo.svg" class="skill-img4" alt="">-->
+            <!--</div>-->
+            <!--<div class="right">-->
+                <!--<h3>PHP</h3>-->
+                <!--<h4>NPM, YARN</h4>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..-->
+            <!--<i class="fa fa-quote-right"></i>-->
+        <!--</div>-->
+        <!--<div class="rating">-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;testimonial ten &ndash;&gt;-->
+    <!--<div class="animation-element slide-left testimonial">-->
+        <!--<div class="header">-->
+            <!--<div class="left">-->
+                <!--<img src="images/MySQL.svg.png" class="skill-img5" alt="">-->
+            <!--</div>-->
+            <!--<div class="right">-->
+                <!--<h3>MySql</h3>-->
+                <!--<h4>NPM, YARN</h4>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..-->
+            <!--<i class="fa fa-quote-right"></i>-->
+        <!--</div>-->
+        <!--<div class="rating">-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;testimonial eleven &ndash;&gt;-->
+    <!--<div class="animation-element slide-left testimonial">-->
+        <!--<div class="header">-->
+            <!--<div class="left">-->
+                <!--<img src="images/java.png" class="skill-img6" alt="">-->
+            <!--</div>-->
+            <!--<div class="right">-->
+                <!--<h3>Java</h3>-->
+                <!--<h4>NPM, YARN</h4>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..-->
+            <!--<i class="fa fa-quote-right"></i>-->
+        <!--</div>-->
+        <!--<div class="rating">-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;testimonial &ndash;&gt;-->
+    <!--<div class="animation-element slide-left testimonial">-->
+        <!--<div class="header">-->
+            <!--<div class="left">-->
+                <!--<img src="images/ajax.png" class="skill-img7" alt="">-->
+            <!--</div>-->
+            <!--<div class="right">-->
+                <!--<h3>AJAX</h3>-->
+                <!--<h4>NPM, YARN</h4>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="content"><i class="fa fa-quote-left"></i> Our involvement in this company has been mutually beneficial. We were hoping for slightly higher returns, however the current level of returns are sufficient..-->
+            <!--<i class="fa fa-quote-right"></i>-->
+        <!--</div>-->
+        <!--<div class="rating">-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+            <!--<i class="fa fa-star-o"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 
 
 <!--end-skills-->
