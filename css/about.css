@@ -1,6 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Padauk');
 @import url('https://fonts.googleapis.com/css?family=Dekko');
 
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+
+
+.jumbo-details {
+    font-family: Ubuntu;
+    font-weight: 200;
+}
+
+.jumbotron {
+    background-color: #5b86e5;
+    background-size: cover;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.jumbo-text {
+    color: #f0f0f0;
+    font-family: Lobster;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 7s steps(60, end);
+}
+
+.blink{
+    animation: blink 1s infinite;
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@keyframes blink{
+    to{opacity: .0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .about {
     width: 100%;
     height: 500px;
@@ -137,4 +190,14 @@ font-size: 25px;
         left: 10%;
     }
 
+}
+
+
+.jumbo-text {
+    color: #f0f0f0;
+    font-family: Lobster;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 9em;
+    animation: type 1s steps(60, end);
 }
