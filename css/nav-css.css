@@ -112,7 +112,10 @@ height: 0;
 }
 
 
-
+.navbar-min nav ul li:checked {
+    height: 10%;
+    transition-delay: 5s;
+}
 
 
 
