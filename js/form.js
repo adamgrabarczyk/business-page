@@ -9,6 +9,8 @@ function isNumber(valueToCheck) {
 }
 
 
+
+
 var isEveryThinkOkey = true;
 
 
