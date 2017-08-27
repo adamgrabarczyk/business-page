@@ -20,7 +20,9 @@
     <link rel="icon" type="image/png" href="" sizes="16x16"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" media="screen" href="css/media.css">
+    <link rel="stylesheet" href="css/form.css">
 
+    <script src="js/form.js" async></script>
     <script src="js/jquery-3.2.0.min.js"></script>
     <script src="js/particles.js" async></script>
     <script src="js/code.js" async></script>
@@ -431,6 +433,41 @@
 <!--end-skills-->
 
 
+
+
+
+<section class="form-section">
+    <div class="holder">
+        <form>
+            <h1> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Napisz wiadmość! </h1>
+            <div class="input-group">
+                <div class="input-group-addon"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> </div>
+                <input type="text" class="form-control input-lg" placeholder="imie" id="name">
+            </div>
+
+            <div class="input-group">
+                <div class="input-group-addon"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> </div>
+                <input type="text" class="form-control input-lg" placeholder="email" id="email">
+                <div id="info"></div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-group-addon"> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> </div>
+                <textarea  class="form-control input-lg" rows="6" placeholder="Twoja wiadomość"></textarea>
+            </div>
+
+            <button id="button">Wyślij</button>
+        </form>
+
+    </div>
+
+
+</section>
+
+
+
+
+<!--end form-->
 
 
 <footer class="footer" id="footer">
