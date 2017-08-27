@@ -1,6 +1,6 @@
 .btn {
     border: 0;
-    background: lightgray;
+    background: rgb(6,164,240);
     color: white;
     padding: 10px 30px;
     outline: none;
@@ -9,12 +9,13 @@
     text-transform: uppercase;
     letter-spacing: .05rem;
     font-size: 24px;
+    width: 210px;
 }
 .btn:hover {
-    background: darkgray;
+    background: rgb(22,102,128);
 }
 .btn:active {
-    background: black;
+    background: rgb(51,36,142);
 }
 
 
