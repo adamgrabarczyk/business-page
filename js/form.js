@@ -118,13 +118,13 @@ $(".holder").fadeIn(2000);
                 var message;
                 //IF USERNAME HAS ERROR
                 if (input === this.fields.userName) {
-                    message = "Please enter your name";
+                    message = "Wprowadź poprawne imię";
                     //ELSE IF USEREMAIL HAS ERROR
                 } else if (input === this.fields.userEmail) {
-                    message = "Please enter a valid email";
+                    message = "Wprowadź poprawny adres email";
                     //ELSE IF USERMESSAGE HAS ERROR
                 } else if (input === this.fields.userMessage) {
-                    message = "Please enter your feedback";
+                    message = "napisz wiadomość";
                 }
                 this.renderError(input, message);
             },
@@ -171,21 +171,26 @@ $(".holder").fadeIn(2000);
                 }
             },
             submitForm: function() {
-            //     var waitForAnimation;
-            //     //ADD SUCCESS CLASS
-            //     this.contactForm.classList.add(classSuccess);
-            //     //WAIT FOR ANIMATION TO FINISH
-            //     this.changeHeader("Wiadomość została wysłana");
-            //     //WAIT FOR ANIMATION TO FINISH
-            //     setTimeout(this.changeHeader.bind(this, "Dziękuję za wiadomość"), 1200);
-            // },
-            // changeHeader: function(text) {
-            //     //CHANGE HEADER TEXT
-            //     this.formHeader.innerHTML = text;
 
-                alert("form wyslany");
+                $("#popup").css("display", "block");
+
+                $("#close_popup").click(function(){
+                    $("#popup").css("display", "none");
+                });
+
+
+
             }
         };
     //INITIATE FORM VALIDATOR
     formValidator.init();
 }());
+
+//
+// $("#open_popup").click(function(){
+//
+//     $("#close_popup").click(function(){
+//         $("#popup").css("display", "none");
+//     });
+//
+// }
