@@ -96,7 +96,6 @@ text-align: center;
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 5em;
-    font-size: 5em;
     padding-top: 100px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
@@ -373,7 +372,37 @@ text-align: center;
 
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img,
-.img-responsive, .thumbnail a>img, .thumbnail>img{
+.img-responsive, .thumbnail a>img, .thumbnail>img {
 
     height: 300px;
-}}
+
+}
+
+
+    .myName {
+
+        width: 90%;
+        height: 120px;
+        top: 120px;
+        left: 5%;
+        left: 5%;
+
+    }
+
+    .myName h1 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+        font-size: 2em;
+        padding-top: 10px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+
+    .myName h2 {
+
+        font-size: 1.2em;
+        padding-top: 5px;
+    }
+
+
+
+}
