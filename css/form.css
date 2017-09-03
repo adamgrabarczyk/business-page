@@ -313,12 +313,14 @@ padding-top: 60px;
 
 
     .holder {
-        width: 100%;
+         width: 100%;
         padding: 1em 0em;
     }
 
 
-
+.form-section{
+    padding: 50px 10px 50px 10px;
+}
 
 
 
