@@ -465,37 +465,60 @@
 
 
 
-<div class="form-section">
+<!--<div class="form-section">-->
 
-    <div class="holder">
-        <div id="contactForm" class="contactForm">
-            <div id="formHeader" class="formHeader">
-                <h1 id="message">Napisz wiadomość!</h1>
-            </div>
-            <div id="formBody" class="formBody">
-                <form action="" method="POST" name="contactForm">
-                    <div class="inputContainer">
-                        <label for="userName">
-                            <i class="fa fa-lg fa-fw fa-user"></i>
-                        </label>
-                        <input name="name" id="userName" type="text" placeholder="Imie">
-                    </div>
-                    <div class="inputContainer">
-                        <label for="userEmail">
-                            <i class="fa fa-lg fa-fw fa-envelope"></i>
-                        </label>
-                        <input name="email" id="userEmail" type="email" placeholder="email">
-                    </div>
-                    <div class="inputContainer">
-                        <textarea name="feedback" id="userMessage" rows="10" placeholder="Twoja wiadomość"></textarea>
-                    </div>
-                    <input id="submitBtn" class="submitBtn" type="submit" value="Wyślij">
-                </form>
-            </div>
-        </div>
+    <!--<div class="holder">-->
+        <!--<div id="contactForm" class="contactForm">-->
+            <!--<div id="formHeader" class="formHeader">-->
+                <!--<h1 id="message">Napisz wiadomość!</h1>-->
+            <!--</div>-->
+            <!--<div id="formBody" class="formBody">-->
+                <!--<form action="" method="POST" name="contactForm">-->
+                    <!--<div class="inputContainer">-->
+                        <!--<label for="userName">-->
+                            <!--<i class="fa fa-lg fa-fw fa-user"></i>-->
+                        <!--</label>-->
+                        <!--<input name="name" id="userName" type="text" placeholder="Imie">-->
+                    <!--</div>-->
+                    <!--<div class="inputContainer">-->
+                        <!--<label for="userEmail">-->
+                            <!--<i class="fa fa-lg fa-fw fa-envelope"></i>-->
+                        <!--</label>-->
+                        <!--<input name="email" id="userEmail" type="email" placeholder="email">-->
+                    <!--</div>-->
+                    <!--<div class="inputContainer">-->
+                        <!--<textarea name="feedback" id="userMessage" rows="10" placeholder="Twoja wiadomość"></textarea>-->
+                    <!--</div>-->
+                    <!--<input id="submitBtn" class="submitBtn" type="submit" value="Wyślij">-->
+                <!--</form>-->
+            <!--</div>-->
+        <!--</div>-->
 
+    <!--</div>-->
+    <!--</div>-->
+
+
+<form id="contact_form" action="" method="POST" onsubmit="return validateForm();" enctype="multipart/form-data">
+    <div class="row">
+        <label class="required" for="name">Your name:</label><br />
+        <input id="name" name="name" type="text" value="" size="30" /><br />
+        <span id="name_validation" class="error"></span>
     </div>
+    <div class="row">
+        <label class="required" for="email">Your email:</label><br />
+        <input id="email" name="email" type="text" value="" size="30" /><br />
+        <span id="email_validation" class="error"></span>
     </div>
+    <div class="row">
+        <label class="required" for="message">Your message:</label><br />
+        <textarea id="message" name="message" rows="7" cols="30"></textarea><br />
+        <span id="message_validation" class="error"></span>
+    </div>
+
+    <input type="submit" value="Send email" />
+</form>
+
+
 
 
 <div id="popup">
