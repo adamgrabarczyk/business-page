@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+
 .btn {
     border: 0;
     background: rgb(6,164,240);
@@ -20,6 +23,8 @@
 
 
 
+
+
 .intro-header {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -38,6 +43,7 @@
 .intro-message>h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-family: Rajdhani;
     font-size: 5em;
 }
 

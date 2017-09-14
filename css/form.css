@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+
+
 .form-section {
     margin: 0px;
     padding: 50px;
@@ -12,7 +16,13 @@ form {
 }
 
 
+.heading {
 
+    margin: 0;
+    font-family: 'Rajdhani';
+    font-size: 2em;
+
+}
 
 
 form>button{
@@ -21,7 +31,7 @@ form>button{
     display: block;
     margin: 1em auto;
     padding: 1em 0em;
-    width: 60%;
+    width: 40%;
     color: #fff;
     text-decoration: none;
     background: #2ecc71;
@@ -43,6 +53,22 @@ form>button:focus{
     border-color: #3498db;
 }
 
+.input {
+
+    border: 0;
+    background: rgb(6,164,240);
+    color: white;
+    padding: 10px 30px;
+    outline: none;
+    display: inline-block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    font-size: 24px;
+    width: 40%;
+border-radius: 5px;
+
+}
 
 
 
