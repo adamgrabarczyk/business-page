@@ -9,10 +9,30 @@
     text-align: center;
 }
 
+.hr {
+
+    width: 60%;
+    padding-bottom: 20px;
+    color: #5b86e5;
+}
+
+.section-heading {
+    font-size: 3em;
+    font-family: Rajdhani;
+}
+
+.visit-text {
+
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 40px;
+font-family: Rajdhani;
+}
+
 form {
 
     background-color: #22c8d8;
-    padding: 20px;
+    padding: 50px;
 }
 
 
@@ -62,7 +82,7 @@ form>button:focus{
     outline: none;
     display: inline-block;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: .05rem;
     font-size: 24px;
     width: 40%;
