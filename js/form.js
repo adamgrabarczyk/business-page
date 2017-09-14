@@ -11,9 +11,13 @@ function validateForm() {
 
     if (name.value === "") {
         valid = 0;
-        name_validation.innerHTML = "Field Required";
+        name_validation.innerHTML = "To pole jest wymagane";
         name_validation.style.display = "block";
         name_validation.style.color = "red";
+        name_validation.style.fontFamily = "Rajdhani";
+        name_validation.style.fontSize = "1.2em";
+
+
     } else {
         name_validation.style.display = "none";
         name_validation.parentNode.style.backgroundColor = "transparent";
@@ -21,9 +25,11 @@ function validateForm() {
 
     if (message.value === "") {
         valid = 0;
-        message_validation.innerHTML = "Field Required";
+        message_validation.innerHTML = "To pole jest wymagane";
         message_validation.style.display = "block";
         message_validation.style.color = "red";
+        message_validation.style.fontFamily = "Rajdhani";
+        message_validation.style.fontSize = "1.2em";
     } else {
         message_validation.style.display = "none";
         message_validation.parentNode.style.backgroundColor = "transparent";
@@ -31,9 +37,11 @@ function validateForm() {
 
     if (email.value === "") {
         valid = 0;
-        email_validation.innerHTML = "Field Required";
+        email_validation.innerHTML = "To pole jest wymagane";
         email_validation.style.display = "block";
         email_validation.style.color = "red";
+        email_validation.style.fontFamily = "Rajdhani";
+        email_validation.style.fontSize = "1.2em";
     } else {
         email_validation.style.display = "none";
         email_validation.parentNode.style.backgroundColor = "transparent";
@@ -41,9 +49,11 @@ function validateForm() {
 
     if(!filter.test(email.value)) {
         valid = 0;
-        email_validation.innerHTML = "Invalid email address";
+        email_validation.innerHTML = "Wprowadź poprawny adres e-mail";
         email_validation.style.display = "block";
         email_validation.style.color = "red";
+        email_validation.style.fontFamily = "Rajdhani";
+        email_validation.style.fontSize = "1.2em";
     } else {
         email_validation.style.display = "none";
         email_validation.parentNode.style.backgroundColor = "transparent";
