@@ -57,7 +57,6 @@ function validateForm() {
     } else {
         email_validation.style.display = "none";
         email_validation.parentNode.style.backgroundColor = "transparent";
-        alert("dziekuje wiadomosc zostala wyslana");
 
     }
     if (!valid)
