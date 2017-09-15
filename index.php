@@ -455,7 +455,7 @@
             <hr class="hr">
 <h4 class="visit-text">Potrzebujesz strony internertowej? chcesz założyć sklep internetowy? mażysz o aplikacji moblinej dla swojej firmy? a może chcesz nawiązać współpracę?
  Jeśli tak, to skorzystaj z formularza konaktowego poniżej i napisz wiadomość!</h4>
-<form id="contact_form" action="" method="POST" onsubmit="return validateForm();" enctype="multipart/form-data">
+            <form id="contact_form" action="" method="POST" onsubmit="return validateForm();" enctype="multipart/form-data">
     <div class="row">
         <label class="required heading" for="name">Imię:</label><br />
         <input id="name" name="name" type="text" value="" size="30" class="input"/><br />
@@ -502,7 +502,15 @@
 
 
 
-
+<?php
+$to = 'apri.itkontakt@gmail.com';
+$name = $_POST["name"] ;
+$message = $_POST["message"] ;
+$headers = 'From:' .$_POST["email"]. "\r\n" .
+    'Content-type: text/html; charset=utf-8';
+        
+mail($to, $name, $message, $headers);
+?>
 
 
 

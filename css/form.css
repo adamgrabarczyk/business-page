@@ -189,6 +189,22 @@ padding-top: 60px;
     padding: 50px 10px 50px 10px;
 }
 
+.input {
+
+    border: 0;
+    background: rgb(6,164,240);
+    color: white;
+    padding: 10px 30px;
+    outline: none;
+    display: inline-block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /*text-transform: uppercase;*/
+    letter-spacing: .05rem;
+    font-size: 24px;
+    width: 90%;
+border-radius: 5px;
+
+}
 
 
 }
